@@ -644,6 +644,16 @@ span {
   .home {
     height: 110vh;
     gap: 0.1rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .about {
+    text-align: center;
+  }
+  .container {
+    padding: 90px 8% 80px;
+    margin-top: 12rem;
+    /* Ajustado a margin-top, add 8rem */
   }
 }
 
