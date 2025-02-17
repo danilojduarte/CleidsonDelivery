@@ -592,3 +592,11 @@ span {
     height: 70vh;
   }
 }
+@media (max-width: 860px) {
+  .home {
+    grid-template-columns: 1fr;
+    height: 118vh;
+  }
+}
+
+
