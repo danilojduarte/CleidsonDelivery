@@ -516,3 +516,6 @@ span {
   color: var(--main-color);
   transform: scale(1.1);
 }
+
+/* Responsividade */
+@media (max-width)
