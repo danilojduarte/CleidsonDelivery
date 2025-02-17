@@ -191,7 +191,7 @@ span {
 }
 
 .container-box {
-  padding: 43px;
+  padding: 43px 43px 43px 43px;
   background: var(--other-color);
   border-radius: 3rem;
 }
@@ -521,18 +521,20 @@ span {
 @media (max-width: 1545px) {
   header {
     padding: 22px 4%;
-    transition .2s
+    transition: .2s;
   }
   header.sticky {
     padding: 14px 4%;
     transition: .2s;
   }
   section {
-  padding : 50px 4% 40px;
+  padding: 50px 4% 40px;
   transition: .2s;
   }
   .container {
-    padding: 30px 4% 50px;
+    padding: 90px 8% 80px;
+    margin-top: 8rem;
+    /* Ajustado a margin-top, add 8rem */
   }
 }
 
@@ -543,7 +545,7 @@ span {
     --p-font: 15px;
   }
   .home {
-    height: 85vh;
+    height: 95vh;
   }
 }
 
@@ -553,7 +555,7 @@ span {
   }
   .navlist {
     position: absolute;
-    top: -1000%;
+    top: -1000px;
     left: 0;
     right: 0;
     display: flex;
@@ -568,7 +570,7 @@ span {
     margin: 1rem;
     border-left: 2px solid var(--main-color);
   }
-  .navlist.opn {
+  .navlist.open {
     top: 100%;
   }
 }
