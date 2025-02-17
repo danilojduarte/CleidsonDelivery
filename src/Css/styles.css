@@ -533,7 +533,7 @@ span {
   }
   .container {
     padding: 90px 8% 80px;
-    margin-top: 8rem;
+    margin-top: 6rem;
     /* Ajustado a margin-top, add 8rem */
   }
 }
@@ -591,7 +591,7 @@ span {
     height: auto;
   }
   .home {
-    height: 70vh;
+    height: 60vh;
   }
 }
 @media (max-width: 860px) {
@@ -599,6 +599,51 @@ span {
     grid-template-columns: 1fr;
     height: 118vh;
   }
+  .home-text {
+    padding-top: 60px;
+  }
+  .home-img {
+    text-align: center;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about-img {
+    text-align: center;
+  }
 }
 
+@media (max-width: 520px) {
+  .contact-img {
+    gap: 1.5rem;
+  }
+  .contact-img img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+  }
+  .social i {
+    margin: 0 10px;
+  }
+  .contact-text p {
+    max-width: 100%;
+  }
+  .details {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 475px) {
+  :root {
+    --big-font: 2.8rem;
+    --h2-font: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .home {
+    height: 110vh;
+    gap: 0.1rem;
+  }
+}
 
