@@ -667,12 +667,15 @@ span {
     text-align: center;
     padding-top: 4rem;
   }
+  .home-img {
+    padding-top: 3rem;
+  }
   .about {
     text-align: center;
   }
   .container {
     padding: 90px 8% 80px;
-    margin-top: 12rem;
+    margin-top: 28rem;
     /* Ajustado a margin-top, add 8rem */
   }
 }
