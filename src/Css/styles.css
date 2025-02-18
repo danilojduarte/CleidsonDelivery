@@ -203,7 +203,7 @@ span {
 
 /* Section Container */
 .container {
-  padding: 30px 14% 70px;
+  padding: 30px 14% 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
@@ -211,9 +211,9 @@ span {
 }
 
 .container-box {
-  padding: 43px 43px 43px 43px;
+  padding: 30px 30px 30px 30px;
   background: var(--other-color);
-  border-radius: 3rem;
+  border-radius: 2rem;
 }
 
 .container-box img {
@@ -250,6 +250,7 @@ span {
 .about-img img {
   width: 100%;
   height: auto;
+  border-radius: 4rem;
 }
 
 .about-text h2 {
@@ -300,6 +301,7 @@ span {
   height: auto;
   transition: transform .50s ease;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .row img:hover {
