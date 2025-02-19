@@ -266,7 +266,7 @@ span {
   margin-bottom: 2rem;
 }
 
-/* Section Serviços */
+/* Section Parceiros */
 .servicos-text {
   text-align: center;
 }
@@ -298,11 +298,12 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1rem;
 }
 
 .row img {
-  width: 100%;
+  width: 80%;
   height: auto;
   transition: transform .50s ease;
   cursor: pointer;
@@ -314,13 +315,15 @@ span {
 }
 
 .row h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 3px;
   font-weight: 700;
+  align-items: center;
+  text-align: center;
 }
 
 .row p {
-
   color: var(--second-color);
   font-size: var(--p-font);
   line-height: 30px;
