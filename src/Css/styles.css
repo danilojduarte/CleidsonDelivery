@@ -245,6 +245,9 @@ span {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 4rem;
+
+  height: 100%;
+  margin-bottom: 2rem;
 }
 
 .about-img img {
