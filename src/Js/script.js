@@ -31,6 +31,9 @@ sr.reveal ('.container',{delay: 300});
 sr.reveal ('.about-img',{});
 sr.reveal ('.about-text',{delay: 300});
 
+sr.reveal ('.servicos-img',{});
+sr.reveal ('.servicos-text',{delay: 300});
+
 sr.reveal ('.servicos-text',{});
 sr.reveal ('.row-btn,.servicos-content',{delay: 300});
 

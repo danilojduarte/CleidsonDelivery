@@ -212,7 +212,7 @@ span {
 
 .container-box {
   padding: 30px 30px 30px 30px;
-  background: var(--other-color);
+  background: var(--other-color);  
   border-radius: 2rem;
 }
 
@@ -269,6 +269,36 @@ span {
   margin-bottom: 2rem;
 }
 
+/* Serviços */
+.servicos {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  align-items: center;
+  gap: 4rem;
+
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.servicos-img img {
+  width: 40%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.servicos-text h2 {
+  font-size: var(--h2-font);
+  font-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.servicos-text p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
 /* Section Parceiros */
 .servicos-text {
   text-align: center;
@@ -294,9 +324,12 @@ span {
 
 .row {
   position: relative;
-  padding: 10px 35px 40px;
+  padding: 35px;
   background: var(--other-color);
   border-radius: 3rem;
+
+  width: 100%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -406,6 +439,9 @@ span {
   padding: 35px;
   background: var(--other-color);
   border-radius: 3rem;
+
+  width: 100%;
+  height: 100%;
 }
 
 .box p {
@@ -482,6 +518,7 @@ span {
 .contact-text h2 {
   font-size: var(--h2-font);
   margin-bottom: 10px;
+  color: var(--main-color);
 }
 
 .contact-text p {
