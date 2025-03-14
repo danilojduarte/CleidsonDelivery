@@ -308,15 +308,15 @@ span {
 
 .row {
   position: relative;
-  /* padding: 20px; */
+  padding: 8px;
   background:rgba(127, 122, 122, 0.19);
 
 
 
   border-radius: 20px;
 
-  width: 260px;
-  height: 320px;
+  width: 60%;
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -672,6 +672,13 @@ span {
   .about-img {
     text-align: center;
   }
+
+  .servicos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 520px) {
@@ -692,12 +699,26 @@ span {
   .details {
     gap: 1.5rem;
   }
+
+  .servicos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 475px) {
   :root {
     --big-font: 2.8rem;
     --h2-font: 2rem;
+  }
+
+  .servicos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -718,6 +739,12 @@ span {
     padding: 90px 8% 80px;
     margin-top: 28rem;
     /* Ajustado a margin-top, add 8rem */
+  }
+  .servicos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
