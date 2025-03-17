@@ -522,7 +522,7 @@ span {
 
 .social i {
   display: inline-block;
-  font-size: 32px;
+  font-size: 42px;
   color: var(--second-color);
   margin: 0 20px;
   transition: all .50s ease;
