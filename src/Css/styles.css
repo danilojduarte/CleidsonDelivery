@@ -309,11 +309,11 @@ span {
 .row {
   position: relative;
   padding: 8px;
-  background:rgba(127, 122, 122, 0.19);
+  background:rgba(136, 132, 132, 0.1);
 
 
 
-  border-radius: 20px;
+  border-radius: 16px;
 
   width: 60%;
   height: auto;
@@ -331,7 +331,7 @@ span {
 
 .row img {
   width: 80%;
-  height: 115px;
+  height: 105px;
   transition: transform .50s ease;
   cursor: pointer;
   border-radius: 20px
@@ -634,6 +634,9 @@ span {
   .navlist.open {
     top: 100%;
   }
+  .main-d a {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1045px) {
@@ -653,6 +656,9 @@ span {
   }
   .home {
     height: 60vh;
+  }
+  .main-d a {
+    font-size: 22px;
   }
 }
 @media (max-width: 860px) {
@@ -678,6 +684,9 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .main-d a {
+    font-size: 22px;
   }
 }
 
@@ -706,6 +715,9 @@ span {
     justify-content: center;
     align-items: center;
   }
+  .main-d a {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -720,7 +732,11 @@ span {
     justify-content: center;
     align-items: center;
   }
+  .main-d a {
+    font-size: 22px;
+  }
 }
+
 
 @media (max-width: 440px) {
   .home {
@@ -745,6 +761,9 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .main-d a {
+    font-size: 22px;
   }
 }
 
