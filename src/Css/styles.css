@@ -137,8 +137,9 @@ padding: 70px 14% 60px;
 }
 
 .home-text p {
-  color: var(--second-color);
-  font-size: var(--p-font);
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 4px;
   line-height: 30px;
   margin-bottom: 2rem;
 }
@@ -330,8 +331,8 @@ span {
 }
 
 .row img {
-  width: 80%;
-  height: 105px;
+  width: 85%;
+  height: 102px;
   transition: transform .50s ease;
   cursor: pointer;
   border-radius: 20px
